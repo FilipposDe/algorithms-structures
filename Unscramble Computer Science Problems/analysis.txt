@@ -1,0 +1,16 @@
+Time complexity
+
+Task 0:
+    O(1)
+
+Task 1:
+    O(n) for n rows in tables (2 for loops)
+
+Task 2:
+    O(n) for n rows in calls table (both for loops)
+
+Task 3:
+    O(nlogn) for n different prefixes called by Bangalore (sort)
+
+Task 4:
+    O(nlogn) for sorting of possible numbers list

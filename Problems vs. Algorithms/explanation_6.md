@@ -1,0 +1,1 @@
+Assume index 0 to contain max and min. Iterate once over every element and compare, if needed update the stored min and max. Time complexity is O(n) for n elements, space complexity O(1).

@@ -1,0 +1,3 @@
+Union and intersection make use of a dictionary. This way it takes O(n+m) time for n items in list 1 and m items in list 2 to construct a dictionary that can both present a union (all the different keys), and an intersection (each key* value is another dictionary containing as keys the lists that contained the key* ), thus allowing for a O(1) time to calculate the number of lists in whick the key was encountered (if length of the dictionary is 2, the key (item) was in both lists).
+
+Overall time complexity is O(n+m) and worst case space (n+m) for n items in list 1 and m items in list 2.
